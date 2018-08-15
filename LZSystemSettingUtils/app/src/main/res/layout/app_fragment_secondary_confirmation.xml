@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/app_alert_infor_bg">
+
+        <RelativeLayout
+            android:id="@+id/id_rlyt_tips"
+            android:layout_width="match_parent"
+            android:layout_height="106dp">
+
+            <TextView
+                android:id="@+id/id_tv_secondary_confirmation_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/app_secondary_confirmation_info"
+                android:textColor="@color/app_color_text_white"
+                android:textSize="15dp" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/id_llyt_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@+id/id_rlyt_tips"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="14dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/id_tv_cancel"
+                style="@style/DFWhiteStrokeBtnTheme"
+                android:text="@string/app_cancel" />
+
+            <TextView
+                android:id="@+id/id_tv_confirm"
+                style="@style/DFWhiteStrokeBtnTheme"
+                android:layout_marginLeft="30dp"
+                android:text="@string/app_confirm" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

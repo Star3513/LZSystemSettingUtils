@@ -3,4 +3,11 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="app_white">#ffffff</color>
+    <color name="app_border_blue">#2587e4</color>
+
+    <color name="app_color_car_previe">#80000000</color>
+    <color name="app_color_text_white">#ffffff</color>
+
 </resources>

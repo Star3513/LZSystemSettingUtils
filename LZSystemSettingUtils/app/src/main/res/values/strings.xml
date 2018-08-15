@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">系统设置demo</string>
+
+    <string name="app_light">亮度:</string>
+    <string name="app_confirm">确定</string>
+    <string name="app_cancel">取消</string>
+
+
+    <string name="app_secondary_confirmation_info">确认删除吗?</string>
+    <string name="app_request_system_setting">亮度调节必须要申请权限，请点击确定申请?</string>
+    <string name="app_start_floating_window">开启悬浮窗</string>
 </resources>

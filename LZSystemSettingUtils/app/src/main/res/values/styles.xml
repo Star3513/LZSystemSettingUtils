@@ -1,8 +1,39 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+    <style name="LZAppTheme" parent="@android:style/Theme.Light.NoTitleBar">
         <!-- Customize your theme here. -->
+    </style>
+
+    <style name="LZBtnTheme">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/app_confirm_bg</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@drawable/app_confirm_text_color</item>
+    </style>
+
+    <style name="DFDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@color/app_color_car_previe</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="DFWhiteStrokeBtnTheme">
+        <item name="android:layout_width">84dp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:background">@drawable/app_car_album_add_case_btn_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/app_color_text_white</item>
+        <item name="android:textSize">14dp</item>
     </style>
 
 </resources>
